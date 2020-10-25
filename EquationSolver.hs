@@ -35,3 +35,11 @@ solveTriangular (x:xs) = let y = (solveTriangular xs) in (solveLine x y):y
 
 solveSystem :: (Fractional a, Eq a) => [[a]] -> [a]
 solveSystem l = solveTriangular (triangulate (nonZeroFirst l))
+{-
+*Main> solveSystem [[1,1,2],[1,0,1]]
+[1.0,1.0]
+*Main> solveSystem [[1,1,1,6],[1,2,1,8],[1,2,3,14]]
+[1.0,2.0,3.0]
+*Main> solveSystem [[1,1,1,1,5],[1,2,1,-2,10],[1,2,3,4,10],[1,-1,1,-1,3]]
+[1.0,2.0,3.0,-1.0]
+-}
