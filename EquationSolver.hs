@@ -2,16 +2,16 @@ sub :: (Fractional a) => [a] -> [a] -> [a]
 sub = zipWith (-)
 
 scaleList :: (Fractional a) => a -> [a] -> [a]
-scaleList c l = map (*c) l  
+scaleList c l = map (*c) l
 
 subScale :: (Fractional a) => [a] -> [a] -> [a]
 subScale l1 l2 = tail (sub l2 (scaleList ((head l2) / (head l1)) l1))
 
 nonZeroFirst :: (Fractional a, Eq a) => [[a]] -> [[a]]
-nonZeroFirst l = nonZeroFirstHelper [] l 
+nonZeroFirst l = nonZeroFirstHelper [] l
 
 nonZeroFirstHelper :: (Fractional a, Eq a) => [[a]] -> [[a]] -> [[a]]
-nonZeroFirstHelper l [] = error "No Non-Zero-First List Present"
+nonZeroFirstHelper l [] = error "System has Zero or Infinite Solutions"
 nonZeroFirstHelper l (x:xs)  | head x /= 0 = (x:xs) ++ l
                              | otherwise   = nonZeroFirstHelper (x:l) xs
 
@@ -31,7 +31,7 @@ solveLine (x:xs) l = (dot xs (l ++ [-1])) / (-1 * x)
 
 solveTriangular :: (Fractional a) => [[a]] -> [a]
 solveTriangular (x:[]) = [(solveLine x [])]
-solveTriangular (x:xs) = let y = (solveTriangular xs) in (solveLine x y):y 
+solveTriangular (x:xs) = let y = (solveTriangular xs) in (solveLine x y):y
 
 solveSystem :: (Fractional a, Eq a) => [[a]] -> [a]
 solveSystem l = solveTriangular (triangulate (nonZeroFirst l))
