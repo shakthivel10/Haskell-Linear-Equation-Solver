@@ -1,1 +1,1 @@
-# Haskell-Linear-Equation-Solver
+# Linear-Equation-Solver-Haskell
