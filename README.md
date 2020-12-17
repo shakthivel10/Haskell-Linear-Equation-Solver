@@ -2,7 +2,7 @@
 
 This is solver for systems of linear equations, implemented in the Functional Programming paradigm using Haskell. The solver is implemented using the Gaussian elimination algorithm, which is also referred to as row reduction. 
 
-The program takes a 2D list which represents the co-efficients in the system of linear equations as its input. The output is a 1D list which contains the solved value of the variables in the system of equatinons, in order.
+The program takes a 2D list, which represents the co-efficients in the system of linear equations as its input. The output is a 1D list which contains the solved values of the variables, in order.
 
 ### Examples:              
 For the following set of equations,
@@ -33,4 +33,4 @@ The input to the function is [[2,-5,3.5,7,5], [-2,0,5,12,-1],[1,-2.4,3,0,7],[5,2
 >solveSystem [[2,-5,3.5,7,5], [-2,0,5,12,-1],[1,-2.4,3,0,7],[5,2,3,-3,-2]]
 [-1.0775208140610548,-1.6378353376503239,1.3822386679000924,-0.8388529139685477]
 ```
-w = -1.0775208140610548, x = -1.6378353376503239, y = 1.3822386679000924 and z = -0.8388529139685477 satisfy the above system of linear equations.               
+The values w = -1.0775208140610548, x = -1.6378353376503239, y = 1.3822386679000924 and z = -0.8388529139685477 satisfy the above system of linear equations.               
