@@ -5,7 +5,7 @@ This is solver for systems of linear equations, implemented in the Functional Pr
 The program takes a 2D list, which represents the co-efficients in the system of linear equations as its input. The output is a 1D list which contains the solved values of the variables, in order.
 
 ### Examples:              
-For the following set of equations,
+1. For the following set of equations,
 
 2x+y+z = 15            
 x+2y+z = 18               
@@ -20,7 +20,7 @@ The output is a 1D list which represents the values of variables, inorder.
 ```
 Hence, for the above set of equations x = 2, y = 5 and z = 6                 
 
-Similarly, for the following set of equations,              
+2. Similarly, for the following set of equations,              
 
 2w-5x+3.5y+7z = 5          
 -2w+5y+12z = -1           
