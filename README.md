@@ -1,8 +1,8 @@
 # Linear-Equation-Solver-Haskell
 
-This is a program to solve a system of linear equations, implemented in the Functional Programming paradigm using Haskell. The program is implemented using the Gaussian elimination algorithm, which is also referred to as row reduction. 
+This is solver for systems of linear equations, implemented in the Functional Programming paradigm using Haskell. The solver is implemented using the Gaussian elimination algorithm, which is also referred to as row reduction. 
 
-The program takes the co-efficients of the system of linear equations as a 2D list.
+The program takes a 2D list which represents the co-efficients in the system of linear equations as its input. The output is a 1D list which contains the solved value of the variables in the system of equatinons, in order.
 
 ### Examples:              
 For the following set of equations,
@@ -18,7 +18,7 @@ The output is a 1D list which represents the values of variables, inorder.
 >solveSystem [[1,1,1,6], [1,2,1,8], [1,2,3,14]]
 [2.0,5.0,6.0]
 ```
-For the above set of equations x = 2, y = 5 and z = 6                 
+Hence, for the above set of equations x = 2, y = 5 and z = 6                 
 
 Similarly, for the following set of equations,              
 
