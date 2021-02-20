@@ -15,7 +15,7 @@ The program takes a 2D list, which represents the co-efficients in the system of
 
 &nbsp;&nbsp;&nbsp;&nbsp;The output is a 1D list which represents the values of variables, inorder.                         
 ```
->solveSystem [[1,1,1,6], [1,2,1,8], [1,2,3,14]]
+>solveSystem [[2,1,1,15], [1,2,1,18], [3,1,2,23]] 
 [2.0,5.0,6.0]
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;Hence, for the above set of equations x = 2, y = 5 and z = 6                 
