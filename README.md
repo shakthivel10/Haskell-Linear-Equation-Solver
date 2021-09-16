@@ -37,5 +37,6 @@ The program takes a 2D list, which represents the co-efficients in the system of
 &nbsp;&nbsp;&nbsp;&nbsp;2w-5x+3.5y+7z = 5          
 &nbsp;&nbsp;&nbsp;&nbsp;-2w+5y+12z = -1           
 &nbsp;&nbsp;&nbsp;&nbsp;w-2.4x+3y = 7           
-&nbsp;&nbsp;&nbsp;&nbsp;5w+2x+3y-3z = -2              
+&nbsp;&nbsp;&nbsp;&nbsp;5w+2x+3y-3z = -2      
+              
 &nbsp;&nbsp;&nbsp;&nbsp;is w = -1.0775208140610548, x = -1.6378353376503239, y = 1.3822386679000924 and z = -0.8388529139685477
