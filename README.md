@@ -33,5 +33,9 @@ The program takes a 2D list, which represents the co-efficients in the system of
 >solveSystem [[2,-5,3.5,7,5], [-2,0,5,12,-1],[1,-2.4,3,0,7],[5,2,3,-3,-2]]
 [-1.0775208140610548,-1.6378353376503239,1.3822386679000924,-0.8388529139685477]
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;For the above set of equations:           
-&nbsp;&nbsp;&nbsp;&nbsp;w = -1.0775208140610548, x = -1.6378353376503239, y = 1.3822386679000924 and z = -0.8388529139685477
+&nbsp;&nbsp;&nbsp;&nbsp;Hence the solution to the set of equations:
+&nbsp;&nbsp;&nbsp;&nbsp;2w-5x+3.5y+7z = 5          
+&nbsp;&nbsp;&nbsp;&nbsp;-2w+5y+12z = -1           
+&nbsp;&nbsp;&nbsp;&nbsp;w-2.4x+3y = 7           
+&nbsp;&nbsp;&nbsp;&nbsp;5w+2x+3y-3z = -2       
+&nbsp;&nbsp;&nbsp;&nbsp;is w = -1.0775208140610548, x = -1.6378353376503239, y = 1.3822386679000924 and z = -0.8388529139685477
