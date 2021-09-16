@@ -34,4 +34,4 @@ The program takes a 2D list, which represents the co-efficients in the system of
 [-1.0775208140610548,-1.6378353376503239,1.3822386679000924,-0.8388529139685477]
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;For the above set of equations w = -1.0775208140610548, x = -1.6378353376503239,                    
-y = 1.3822386679000924 and z = -0.8388529139685477
+&nbsp;&nbsp;&nbsp;&nbsp;y = 1.3822386679000924 and z = -0.8388529139685477
